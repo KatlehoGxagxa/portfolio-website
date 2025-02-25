@@ -17,12 +17,21 @@ section {
 
 .btn {
     display: inline-block;
-    background: white;
-    color: black;
-    padding: 10px 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
+    color: white;
+    background: #007bff;
+    transition: 0.3s;
 }
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
 
 .skill-list {
     display: flex;
@@ -143,5 +152,27 @@ section {
 /* Icon Styling */
 .social-link i {
     font-size: 24px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px; /* Limits width */
+    margin: auto; /* Centers content */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 80%; /* Adjusts text width */
 }
 
