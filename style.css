@@ -17,21 +17,12 @@ section {
 
 .btn {
     display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: bold;
+    background: white;
+    color: black;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    color: white;
-    background: #007bff;
-    transition: 0.3s;
 }
-
-.btn:hover {
-    background: #0056b3;
-    transform: scale(1.05);
-}
-
 
 .skill-list {
     display: flex;
@@ -176,3 +167,19 @@ section {
     max-width: 80%; /* Adjusts text width */
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background: #007bff;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
