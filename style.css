@@ -102,47 +102,64 @@ section {
     margin-top: 30px;
 }
 
-/* Social Icons Container */
+/* Social Media Buttons Styling */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+/* Icons inside buttons */
+.social-link i {
+    font-size: 22px;
+}
+
+/* Specific styles for each platform */
+.reddit {
+    background: #ff4500;
+}
+.reddit:hover {
+    background: #cc3700;
+    transform: scale(1.05);
+}
+
+.youtube {
+    background: #ff0000;
+}
+.youtube:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+.github {
+    background: #333;
+}
+.github:hover {
+    background: #222;
+    transform: scale(1.05);
+}
+
+.linkedin {
+    background: #0077b5;
+}
+.linkedin:hover {
+    background: #005582;
+    transform: scale(1.05);
+}
+
+/* Center the buttons and space them out */
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     margin-top: 10px;
-}
-
-/* Individual Social Links */
-.social-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-}
-
-/* Reddit Link */
-.social-link:nth-child(1) {
-    background-color: #FF4500;
-    color: white;
-}
-
-/* YouTube Link */
-.social-link:nth-child(2) {
-    background-color: #FF0000;
-    color: white;
-}
-
-/* Hover Effect */
-.social-link:hover {
-    opacity: 0.8;
-}
-
-/* Icon Styling */
-.social-link i {
-    font-size: 24px;
 }
 
 .about-container {
